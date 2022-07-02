@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background: linear-gradient(to right, #202427, #212529);
+  background: #0d0f10;
 }
 .text-content {
   width: 50%;
