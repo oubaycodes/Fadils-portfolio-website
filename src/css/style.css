@@ -1,11 +1,37 @@
-.image-header {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.header {
   height: 100vh;
   background: #0d0f10;
 }
-.text-content {
-  width: 50%;
+.content {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  gap: 1.6rem;
 }
-/*  url(../../content/img/IMG_20220702_184006_339.jpg); */
+.welcome-text {
+  text-align: center;
+  font-weight: 800;
+  padding: 1.6rem 0;
+  font-size: 1.2rem;
+  letter-spacing: 10;
+  color: #adb5bd;
+}
+
+.heading-primary {
+  font-size: 3rem;
+  text-align: start;
+}
+.highlight {
+  font-size: 72px;
+  background: -webkit-linear-gradient(#00c3ff, #ffff1c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.img-header {
+  width: 100%;
+  border-radius: 5px;
+}
+.text-content {
+  padding: 9.2rem 0 0 0;
+}
