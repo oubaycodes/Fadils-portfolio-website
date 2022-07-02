@@ -11,3 +11,9 @@ body {
   background-color: #212529;
   font-family: "Julius Sans One", sans-serif;
 }
+.highlight {
+  font-size: 72px;
+  background: -webkit-linear-gradient(#343a40, #ced4da);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

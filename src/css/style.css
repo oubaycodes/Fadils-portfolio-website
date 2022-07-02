@@ -22,13 +22,10 @@
 .heading-primary {
   font-size: 3rem;
   text-align: start;
+  line-height: 0.9;
+  margin-bottom: 1.6rem;
 }
-.highlight {
-  font-size: 72px;
-  background: -webkit-linear-gradient(#343a40, #ced4da);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
+
 .img-header {
   width: 100%;
   border-radius: 5px;
@@ -36,4 +33,12 @@
 }
 .text-content {
   padding: 12.8rem 0 0 0;
+}
+.about-text {
+  font-size: 1.2rem;
+  line-height: 1.2;
+}
+.welcome-highlight {
+  color: #f8f9fa;
+  margin: 0 0.8rem;
 }
