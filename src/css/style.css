@@ -1,0 +1,11 @@
+.image-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(to right, #202427, #212529);
+}
+.text-content {
+  width: 50%;
+}
+/*  url(../../content/img/IMG_20220702_184006_339.jpg); */
