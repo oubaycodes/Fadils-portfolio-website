@@ -45,7 +45,7 @@
 .button-container {
   margin-top: 6.4rem;
   display: flex;
-  gap: 3.2rem;
+  gap: 1.6rem;
 }
 .btn {
   font-size: 1.4rem;
@@ -54,4 +54,9 @@
   border: 1px solid #f1f3f5;
   padding: 0.8rem 1.6rem;
   border-radius: 5px;
+}
+.btn-extra {
+  background-color: #3b5bdb;
+  color: #0d0f10;
+  border: 1px solid transparent;
 }
