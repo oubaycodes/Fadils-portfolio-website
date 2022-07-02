@@ -1,6 +1,7 @@
 .header {
   height: 100vh;
   background: #0d0f10;
+  padding: 0 1.6rem;
 }
 .content {
   height: 100%;
@@ -24,14 +25,15 @@
 }
 .highlight {
   font-size: 72px;
-  background: -webkit-linear-gradient(#00c3ff, #ffff1c);
+  background: -webkit-linear-gradient(#343a40, #ced4da);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .img-header {
   width: 100%;
   border-radius: 5px;
+  filter: grayscale(1) brightness(50%);
 }
 .text-content {
-  padding: 9.2rem 0 0 0;
+  padding: 12.8rem 0 0 0;
 }
