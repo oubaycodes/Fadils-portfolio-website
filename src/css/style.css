@@ -42,3 +42,16 @@
   color: #f8f9fa;
   margin: 0 0.8rem;
 }
+.button-container {
+  margin-top: 6.4rem;
+  display: flex;
+  gap: 3.2rem;
+}
+.btn {
+  font-size: 1.4rem;
+  text-decoration: none;
+  color: #f8f9fa;
+  border: 1px solid #f1f3f5;
+  padding: 0.8rem 1.6rem;
+  border-radius: 5px;
+}
