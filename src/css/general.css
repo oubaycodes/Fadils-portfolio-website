@@ -18,12 +18,15 @@ body {
   -webkit-text-fill-color: transparent;
 }
 .grid--2-cols {
+  display: grid;
   grid-template-columns: 1fr 1fr;
 }
 .grid--3-cols {
+  display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
 .grid--4-cols {
+  display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
 
@@ -44,4 +47,7 @@ body {
   color: #3b5bdb;
   font-size: 1.2rem;
   margin-bottom: 0.2rem;
+}
+.gap {
+  gap: 3.2rem;
 }
