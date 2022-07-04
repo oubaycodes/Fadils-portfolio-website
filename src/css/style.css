@@ -19,13 +19,6 @@
   color: #adb5bd;
 }
 
-.heading-primary {
-  font-size: 3rem;
-  text-align: start;
-  line-height: 0.9;
-  margin-bottom: 1.6rem;
-}
-
 .img-header {
   width: 100%;
   border-radius: 5px;
@@ -59,4 +52,8 @@
   background-color: #3b5bdb;
   color: #0d0f10;
   border: 1px solid transparent;
+}
+.section-gallery {
+  /* font-family: "Rubik", sans-serif; */
+  margin: 4.8rem 1.6rem;
 }

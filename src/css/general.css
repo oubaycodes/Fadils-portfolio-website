@@ -17,3 +17,31 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.grid--2-cols {
+  grid-template-columns: 1fr 1fr;
+}
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.container {
+  margin: 0 auto;
+}
+.heading-primary {
+  font-size: 3rem;
+  text-align: start;
+  line-height: 0.9;
+  margin-bottom: 1.6rem;
+}
+.heading-secondary {
+  font-size: 2rem;
+  margin-bottom: 1.6rem;
+}
+.heading-tertiary {
+  color: #3b5bdb;
+  font-size: 1.2rem;
+  margin-bottom: 0.2rem;
+}
