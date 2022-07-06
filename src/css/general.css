@@ -31,7 +31,9 @@ body {
 }
 
 .container {
-  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .heading-primary {
   font-size: 3rem;
