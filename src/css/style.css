@@ -1,14 +1,16 @@
 .section-header {
-  height: 100vh;
   background: #0d0f10;
-  padding: 0 1.6rem;
 }
+
 .content {
-  height: 100%;
-  width: 100%;
   display: grid;
   grid-template-columns: 2fr 3fr;
+
   gap: 1.6rem;
+}
+.hero {
+  max-height: 140rem;
+  padding: 0 1.6rem 1.6rem 1.6rem;
 }
 .welcome-text {
   text-align: center;
