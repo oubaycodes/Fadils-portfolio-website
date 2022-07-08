@@ -31,6 +31,9 @@ body {
 }
 
 .container {
+  margin: 0 auto;
+}
+.section-gallery .container {
   display: flex;
   justify-content: center;
   align-items: center;
